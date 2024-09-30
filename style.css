@@ -1,0 +1,175 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.hero {
+    background-image: url('images/image5.jpg');
+    background-size: cover;
+    padding: 100px 150px;
+    height: 700px;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+}
+
+.hero-card {
+    padding: 40px 30px !important;
+
+}
+
+.hero-description {
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.card-body {
+    box-sizing: border-box;
+    padding: 50px 15px;
+}
+
+.btn-dark {
+    padding: 10px;
+    color: black;
+
+}
+
+.btn-special {
+    font-size: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.install-repair {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #ffca01;
+    background-size: cover;
+    padding: 65px 30px;
+}
+
+.services {
+    padding: 50px 150px;
+    background-image: url(images/image.png);
+
+}
+
+.quote-section{
+    padding: 50px 150px;
+}
+
+.quote {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.man-helmet {
+    background-image: url(images/man.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 65px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.man-helmet .title{
+    text-align: left;
+}
+
+.estimate{
+    padding: 50px 150px;
+    background-image: url(images/65.jpg);
+    background-size: cover;
+    background-position: bottom;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.estimate .title{
+    text-align: left;
+}
+
+.estimate-description{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.man-phone{
+    padding:100px 150px;
+}
+
+.footer{
+background-color: black; 
+background-size: 300px 100px;
+padding: 100px 150px;
+}
+
+.button1{
+    background-color: #ffca01!important; 
+    margin: 30px30px;
+    padding: 32px32px;
+    color: black;
+    border: none;
+    font-weight: 200;
+    
+}
+
+.footer-content{
+    color: white;
+    font-size: large;
+}
+
+.icons-container{
+    background-color: #ffca01;
+    align-items: center;
+    border-radius: 80px 80px;
+}
+
+/* responsive for mobile phones*/
+@media only screen and (max-width: 600px) {
+    .hero{
+        padding: 35px;
+    }
+    .install-repair{
+        font-size: 20px;
+    }
+    .services{
+        padding: 40px;
+        font-size: 20px;
+    }
+    
+    .quote-section{
+        padding: 40px;
+        font-size: 20px;
+        margin: 14px 10px;
+    }
+
+    .man-helmet{
+        padding: 40px;
+        font-size: 20px;
+    }
+    .estimate{
+        padding: 40px;
+    }
+    .footer{
+        padding: 80px;
+    }
+    .man-phone{
+        padding: 50px;
+    }
+
+
+}
